@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="42412" started-at="2021-02-03T20:04:48Z" finished-at="2021-02-03T20:05:31Z">
+    <groups>
+      <group name="cucumber">
+        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:parallel.TestRunner@20398b7c]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
+      </group> <!-- cucumber -->
+    </groups>
+    <test name="Default test" duration-ms="42412" started-at="2021-02-03T20:04:48Z" finished-at="2021-02-03T20:05:31Z">
+      <class name="parallel.TestRunner">
+        <test-method status="PASS" signature="setUpClass()[pri:0, instance:parallel.TestRunner@20398b7c]" name="setUpClass" is-config="true" duration-ms="1272" started-at="2021-02-03T20:04:48Z" finished-at="2021-02-03T20:04:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:parallel.TestRunner@20398b7c]" name="runScenario" duration-ms="19767" started-at="2021-02-03T20:04:50Z" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2021-02-03T20:05:10Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Free CRM login test cenarios"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[Free CRM login]"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:parallel.TestRunner@20398b7c]" name="runScenario" duration-ms="38360" started-at="2021-02-03T20:04:50Z" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2021-02-03T20:05:28Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Free CRM login test cenarios"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[Free CRM login]"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="tearDownClass()[pri:0, instance:parallel.TestRunner@20398b7c]" name="tearDownClass" is-config="true" duration-ms="2701" started-at="2021-02-03T20:05:28Z" finished-at="2021-02-03T20:05:31Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- parallel.TestRunner -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

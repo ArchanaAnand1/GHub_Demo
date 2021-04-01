@@ -1,25 +1,25 @@
 $(document).ready(function() {
 CucumberHTML.timelineItems.pushArray([
   {
-    "id": "bb6fb211-7808-4015-9a2c-8c53151f4c3d",
+    "id": "2d99f894-fa6f-4530-a429-f19f13ce6fc2",
     "feature": "Free CRM login",
     "scenario": "Free CRM login test cenarios",
-    "start": 1613495251728,
+    "start": 1617294774779,
     "group": 15,
     "content": "",
     "tags": "@smoke,@regression,",
-    "end": 1613495308805,
+    "end": 1617294806094,
     "className": "passed"
   },
   {
-    "id": "f33e4ca4-aa33-4503-ac1f-4467c854a7f0",
+    "id": "3b65930b-fa16-4fd1-944a-9b43cbae3a6a",
     "feature": "Free CRM login",
     "scenario": "Free CRM login test cenarios",
-    "start": 1613495251912,
+    "start": 1617294775004,
     "group": 14,
     "content": "",
     "tags": "@sanity,",
-    "end": 1613495333109,
+    "end": 1617294821264,
     "className": "passed"
   }
 ]);

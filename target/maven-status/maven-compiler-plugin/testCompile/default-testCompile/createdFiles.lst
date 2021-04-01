@@ -1,0 +1,4 @@
+parallel\LoginStepDefinitions.class
+StepDefinitions\LoginStepDefinitions.class
+TestRunner\TestRunner.class
+parallel\TestRunner.class
